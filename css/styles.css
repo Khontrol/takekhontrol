@@ -2340,6 +2340,10 @@ p {
   background-color: #9294c7;
 }
 
+.bg-dark--5 {
+    background-color: #000000;
+}
+
 .bg-purple {
   background-color: #6d02e5;
 }
