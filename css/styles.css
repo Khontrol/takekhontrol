@@ -77,7 +77,7 @@ body.loading {
   overflow: hidden;
 }
 
-body, a, .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
+body, a, .uk-h1, .uk-h2, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 {
   color: #c9c9e3;
 }
 
@@ -114,6 +114,7 @@ p {
 
 .uk-h3 {
   font-size: 21px;
+  color: #000000;
 }
 
 @media (min-width: 1600px) {
@@ -2345,7 +2346,7 @@ p {
 }
 
 .bg-dark--6 {
-    background-color: #FFD700;
+    background-color: #FFFFFF;
 }
 
 .bg-purple {
