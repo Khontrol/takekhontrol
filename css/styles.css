@@ -1667,7 +1667,7 @@ p {
 }
 
 .list__item:nth-child(odd) {
-  background-color: rgba(47, 44, 91, 0.5);
+  background-color: #800000;
 }
 
 @media (min-width: 640px) {
