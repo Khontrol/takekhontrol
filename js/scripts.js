@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
 		03. Top Panel Show/Hide
 
 	---------------------------- */
-/*
+
 	var panelHidden = false;
 	wnd.on('load scroll resize', function() {
 		if (wnd[0].innerWidth >= breakpoint.m) {
@@ -103,7 +103,7 @@ jQuery(document).ready(function($) {
 			}
 		}
 	});
-*/
+
 
 	/* ----------------------------
 
