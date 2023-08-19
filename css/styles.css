@@ -855,24 +855,24 @@ p {
 
 ---------------------------- */
 .logo--intro {
-  margin-bottom: 295px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 960px) {
   .logo--intro {
-    margin-bottom: 295px;
+    margin-bottom: 40px;
   }
 }
 
 @media (min-width: 1200px) {
   .logo--intro {
-    margin-bottom: 295px;
+    margin-bottom: 60px;
   }
 }
 
 @media (min-width: 1600px) {
   .logo--intro {
-    margin-bottom: 295px;
+    margin-bottom: 90px;
   }
 }
 
