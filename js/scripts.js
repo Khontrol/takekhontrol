@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
 
 	---------------------------- */
 
-	var panelHidden = false;
+/*	var panelHidden = false;
 	wnd.on('load scroll resize', function() {
 		if (wnd[0].innerWidth >= breakpoint.m) {
 			if (wnd.scrollTop() > wnd[0].innerHeight) {
@@ -103,7 +103,7 @@ jQuery(document).ready(function($) {
 			}
 		}
 	});
-
+*/
 
 	/* ----------------------------
 
