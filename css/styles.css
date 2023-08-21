@@ -1719,7 +1719,8 @@ p {
 }
 
 .tracks .list__item--active {
-  background-color: #6d02e5;
+        background-color: #39FF14;
+        color: #000000
 }
 
 .tracks .list__item--active .mejs__time span.mejs__currenttime {
