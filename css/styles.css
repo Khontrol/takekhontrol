@@ -2375,3 +2375,20 @@ p {
 ::selection {
   background-color: #6d02e5;
 }
+
+.slider {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  min-width: 100%;
+  transition: all 0.5s;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
