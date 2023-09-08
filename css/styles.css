@@ -1902,7 +1902,7 @@ p {
 }
 
 .albums--list .albums__item.albums--playing .albums__cover .cover__link {
-  background-color: #6d02e5;
+  background-color: #39FF14;
   opacity: 1;
 }
 
@@ -2225,7 +2225,7 @@ p {
   padding-top: 20px;
   margin-left: -25px;
   text-align: center;
-  background-color: #1e1a3f;
+  background-color: #800000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: all 0.4s ease;
@@ -2274,7 +2274,7 @@ p {
 
 .footer__copyrights {
   font-size: 14px;
-  color: #9294c7;
+  color: white;
 }
 
 /* ----------------------------
@@ -2333,15 +2333,15 @@ p {
 }
 
 .bg-dark--1 {
-    background-color: #800000;
+    background-color: #000000;
 }
 
 .bg-dark--2 {
-    background-color: #800000;
+    background-color: #000000;
 }
 
 .bg-dark--3 {
-    background-color: #800000;
+    background-color: #000000;
 }
 
 .bg-dark--4 {
