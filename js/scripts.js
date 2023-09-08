@@ -25,24 +25,18 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", () => {
-	const slider = document.getElementById("slider");
+	const slider = document.getElementById("video-slider");
 	const slides = document.querySelectorAll(".slide");
 	let currentSlide = 0;
   
 	document.getElementById("nextBtn").addEventListener("click", () => {
 	  currentSlide = (currentSlide + 1) % slides.length;
-	  slider.scroll({
-		left: slides[currentSlide].offsetLeft,
-		behavior: "smooth"
-	  });
+	  slider.style.transform = `translateX(-${currentSlide * 100}%)`;
 	});
   
 	document.getElementById("prevBtn").addEventListener("click", () => {
 	  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-	  slider.scroll({
-		left: slides[currentSlide].offsetLeft,
-		behavior: "smooth"
-	  });
+	  slider.style.transform = `translateX(-${currentSlide * 100}%)`;
 	});
   });
 

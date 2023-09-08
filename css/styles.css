@@ -2377,14 +2377,19 @@ p {
 }
 
 .slider {
-  width: 100%;
   display: flex;
-  overflow: hidden;
+  transition: all 0.5s;
 }
 
 .slide {
-  min-width: 100%;
-  transition: all 0.5s;
+  flex: 0 0 100%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 iframe {
