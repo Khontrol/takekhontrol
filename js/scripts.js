@@ -27,18 +27,21 @@
 document.addEventListener("DOMContentLoaded", () => {
 	const slider = document.getElementById("video-slider");
 	const slides = document.querySelectorAll(".slide");
+	console.log("Number of slides:", slides.length);  // Debugging line
 	let currentSlide = 0;
   
 	document.getElementById("nextBtn").addEventListener("click", () => {
-	  currentSlide = (currentSlide + 1) % slides.length;
-	  slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+		currentSlide = (currentSlide + 1) % slides.length;
+		console.log("Next button clicked. Current slide:", currentSlide);  // Debugging line
+		slider.style.transform = `translateX(-${currentSlide * 100}%)`;
 	});
   
 	document.getElementById("prevBtn").addEventListener("click", () => {
-	  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-	  slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+		currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+		console.log("Previous button clicked. Current slide:", currentSlide);  // Debugging line
+		slider.style.transform = `translateX(-${currentSlide * 100}%)`;
 	});
-  });
+});
 
 	/* ----------------------------
 
