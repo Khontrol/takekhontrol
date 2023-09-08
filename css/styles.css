@@ -2405,6 +2405,7 @@ iframe {
   border: 5px solid #800000;  /* Border */
   border-radius: 15px;  /* Rounded corners */
   box-shadow: 0px 0px 20px #000;  /* Shadow for a bit of depth */
+  margin-top: 100px;
 }
 
 .responsive-iframe-container iframe {
