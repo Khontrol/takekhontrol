@@ -454,21 +454,21 @@ jQuery(document).ready(function($) {
 		const slider = document.getElementById("slider");
 		const slides = document.querySelectorAll(".slide");
 		let currentSlide = 0;
-	  
-		document.getElementById("nextBtn").addEventListener("click", () => {
-		  currentSlide = (currentSlide + 1) % slides.length;
-		  slider.scroll({
-			left: slides[currentSlide].offsetLeft,
-			behavior: "smooth"
-		  });
+	  });
+
+	  document.getElementById("nextBtn").addEventListener("click", () => {
+		currentSlide = (currentSlide + 1) % slides.length;
+		slider.scroll({
+		  left: slides[currentSlide].offsetLeft,
+		  behavior: "smooth"
 		});
-	  
-		document.getElementById("prevBtn").addEventListener("click", () => {
-		  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-		  slider.scroll({
-			left: slides[currentSlide].offsetLeft,
-			behavior: "smooth"
-		  });
+	  });
+	
+	  document.getElementById("prevBtn").addEventListener("click", () => {
+		currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+		slider.scroll({
+		  left: slides[currentSlide].offsetLeft,
+		  behavior: "smooth"
 		});
 	  });
 
