@@ -2399,7 +2399,7 @@ iframe {
 
 .responsive-iframe-container {
   position: relative;
-  padding-top: 65.625%; /* Aspect Ratio (840/1280 * 100) */
+  padding-bottom: 65.625%; /* Aspect Ratio (840/1280 * 100) */
   height: 0;
   overflow: hidden;
 }
