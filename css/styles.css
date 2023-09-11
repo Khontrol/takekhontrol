@@ -2405,7 +2405,7 @@ iframe {
 .responsive-iframe-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 99%;
   padding-bottom: 65.625%; /* Aspect Ratio */
   border: 5px solid #800000;  /* Border */
   border-radius: 15px;  /* Rounded corners */
